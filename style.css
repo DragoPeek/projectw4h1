@@ -214,7 +214,7 @@ header{
     margin: 0 0 16px 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
     .sec2 {
         flex-direction: column;
         padding: 60px 20px;
@@ -230,3 +230,87 @@ header{
     }
 }
 /*--------------sec3-------------------*/
+.head-sec3 {
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #CCF4E6;
+}
+
+.sec3 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 20px;
+}
+
+.sec3-top {
+    max-width: 525px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+
+.sec3-top h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #0F241D;
+    margin: 0 0 16px 0;
+}
+
+.sec3-top p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0F241D;
+    margin: 0;
+}
+
+.sec3-top span {
+    color: #69B99D;
+    font-weight: 500;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.card {
+    flex: 1;
+    background-color: #F9F9F9;
+    border: 1px solid #E4E4E4;
+    border-bottom: 4px solid #69B99D;
+    border-radius: 4px;
+    padding: 48px 32px;
+    text-align: center;
+}
+
+.card img {
+    object-fit: contain;
+    margin-bottom: 24px;
+}
+
+.card h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F241D;
+    margin: 0 0 12px 0;
+}
+
+.card p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #767676;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .sec3 {
+        padding: 80px 20px;
+    }
+}
